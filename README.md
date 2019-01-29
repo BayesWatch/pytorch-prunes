@@ -48,7 +48,7 @@ python prune.py --net='dense' --depth 100 --data_loc=<path-to-data> --l1_prune=T
 Note that the default is to perform Fisher pruning, so you don't need to pass a flag to use it.  
 Once finished, we can train the pruned models from scratch, e.g.:  
 ```
-python train.py --data_loc=<path-to-data> --net='RES' --base_file='res_fisher_<N>_prunes' --deploy --mask=1 --save_file='res_fisher_<N>_prunes_scratch'
+python train.py --data_loc=<path-to-data> --net='res' --base_file='res_fisher_<N>_prunes' --deploy --mask=1 --save_file='res_fisher_<N>_prunes_scratch'
 ```
 
 Each model can then be evaluated using:
