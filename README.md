@@ -2,7 +2,7 @@
 
 Code used to reproduce experiments in https://arxiv.org/abs/1810.04622.
 
-To prune, we fill our networks with custom`MaskBlocks`, which are manipulated using `Pruner` in funcs.py. There will certainly be a better way to do this, but we leave this an exercise to someone who can code much better than we can.
+To prune, we fill our networks with custom `MaskBlocks`, which are manipulated using `Pruner` in funcs.py. There will certainly be a better way to do this, but we leave this as an exercise to someone who can code much better than we can.
 ## Setup
 This is best done in a clean conda environment:
 
@@ -75,7 +75,7 @@ With DenseNets you can modify the `depth` or `growth`, or use `--bottle --bottle
 
 ### Acknowledgements
 
-Code has been liberally borrowed from many a repo, including but not limited to:
+Code has been liberally borrowed from many a repo, including, but not limited to:
 
 ```
 https://github.com/xternalz/WideResNet-pytorch
