@@ -75,6 +75,8 @@ With DenseNets you can modify the `depth` or `growth`, or use `--bottle --bottle
 
 ### Acknowledgements
 
+[Jack Turner][https://github.com/jack-willturner] wrote some code.
+
 Code has been liberally borrowed from many a repo, including, but not limited to:
 
 ```
