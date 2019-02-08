@@ -141,8 +141,6 @@ class Pruner:
             if m._get_name() == self.module_name:
                 m.cost()
                 params += m.params
-        # Add params from first conv, last BN pair, last FC weight, last FC bias
-        params += len(model.conv1.weight.view(-1)) + 2 * model.fc.weight.size(1) + model.fc.weight.size(1) * 10 + 10
         return params
 
     @staticmethod

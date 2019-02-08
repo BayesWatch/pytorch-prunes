@@ -261,7 +261,7 @@ if __name__ == '__main__':
             validate()
 
             # Error history is recorded in validate(). Record params here
-            no_params = pruner.get_cost(model)
+            no_params = pruner.get_cost(model) + model.fixed_params
             param_history.append(no_params)
 
         # Save before pruning
