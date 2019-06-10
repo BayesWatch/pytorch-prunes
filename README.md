@@ -94,6 +94,7 @@ If you would like to cite this work, please use the following bibtex entry:
   title={A Closer Look at Structured Pruning for Neural Network Compression},
   author={Crowley, Elliot J and Turner, Jack and Storkey, Amos and O'Boyle, Michael},
   journal={arXiv preprint arXiv:1810.04622},
-  year={2018}
+  year={2018},
+  }
 ```
 [jack]: https://github.com/jack-willturner
