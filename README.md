@@ -1,4 +1,4 @@
-# Pruning neural networks: is it time to nip it in the bud?
+# A Closer Look at Structured Pruning for Neural Network Compression
 
 Code used to reproduce experiments in https://arxiv.org/abs/1810.04622.
 
@@ -90,8 +90,8 @@ https://github.com/ShichenLiu/CondenseNet
 If you would like to cite this work, please use the following bibtex entry:
 
 ```
-@article{prunes,
-  title={Pruning neural networks: is it time to nip it in the bud?},
+@article{crowley2018pruning,
+  title={A Closer Look at Structured Pruning for Neural Network Compression},
   author={Crowley, Elliot J and Turner, Jack and Storkey, Amos and O'Boyle, Michael},
   journal={arXiv preprint arXiv:1810.04622},
   year={2018}
