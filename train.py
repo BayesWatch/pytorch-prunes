@@ -250,12 +250,12 @@ if __name__ == '__main__':
     if not args.eval:
 
         for epoch in range(args.no_epochs):
-            scheduler.step()
 
             print('Epoch %d:' % epoch)
             print('Learning rate is %s' % [v['lr'] for v in optimizer.param_groups][0])
             # train for one epoch
             train()
+            scheduler.step()
             # # evaluate on validation set
             validate()
 
